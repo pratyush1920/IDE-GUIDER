@@ -1,0 +1,33 @@
+/* .body
+{
+   text-align:center;
+   justify-content: center;
+   background-color: black;
+} */
+
+.container_1
+{   
+    text-align:center;
+    /* justify-content:center; */
+
+    padding:150px;
+    margin:100px ;
+    color:white;
+   
+    width: 5vw;
+    height:5vh;
+    background-color:#151515;
+    border: 60px solid;
+    border-image:linear-gradient(#ff512f,#dd2476,#1c64ff) 900;
+    animation: rotate
+    2.5s
+    ease-in
+    infinite;
+}
+
+@keyframes rotate
+{
+    50%{
+        border-image:linear-gradient(360deg,#ff512f,#dd2376,#1c64ff) 1;
+    }
+}
